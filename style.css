@@ -1,0 +1,61 @@
+h1 {
+    font-size: 55px;
+    line-height: 30px;
+    color: white;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 35px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    width: 630px;
+    margin-top: 36px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header {
+    height: 120px;
+    background-color: rgb(8, 165, 231);
+    text-align: center;
+    top: auto;
+    color: #000000;
+    /*background-image: url("resources/background1.jpg");*/
+    background-size: cover;
+    background-position: center bottom;
+    padding-top: 20px;
+}
+
+.carousel {
+    height: 120px;
+    background-color: white;
+}
+
+.info {
+    height: 120px;
+}
+
+.buttons {
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 10px 20px;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0,0,0,.1);
+    transition: .5s;
+}
+
+button:hover {background-position: right center;}
+
+body {
+    font-family: 'century gothic';
+}
